@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulario</title>
+	<style>
+		input {
+			display: ;
+			margin-bottom: 10px;
+		}
+		form {
+			border: 1px solid #000;
+			padding: 10px;
+			border-radius: 15px;
+			background-color: #eee;
+		}
+
+		fieldset {
+			border: 1px solid #000;
+			padding: 10px;
+			border-radius: 15px;
+			background-color: darkgray;
+		}
+
+	</style>
+</head>
+<body>
+	
+		<h2>FICHA DE CADASTRO DO TRABALHADOR</h2>
+	
+	
+
+	<form>
+	<fieldset>
+		
+		<div>
+			<label>Nome:</label>
+			<input type="text" name="f_nome">
+		</div>
+
+		<div>
+			<label>Apelido:</label>
+			<input type="text" name="apelido">
+		</div>
+	</fieldset>	
+	<div>
+		<label>Codigo do trabalhador:</label>
+		<input type="password" name="Codigo">
+	</div>
+	<div>
+		<label>Endereço:</label>
+		<input type="text" name="Endereço">
+	</div>
+	<div>
+		<p>Filiaçao:</p>
+		<label>Pai</label>
+		<input type="text" name="pai">
+		<label>Mae</label>
+		<input type="text" name="Mae">
+	</div>
+	<div>
+		<label>Sexo:</label>
+		<label>
+			<input type="radio" name="sexo" value="Masculino">Masculino
+		</label>
+		<label>
+			<input type="radio" name="sexo" value="Feminino">Feminino
+		</label>
+	<div>
+		<label>Estado Civil:</label>
+		<label>
+			<input type="radio" name="civil" value="Solteiro">Solteiro
+		</label>
+		<label>
+			<input type="radio" name="civil" value="Casado">Casado
+		</label>
+		<label>
+			<input type="radio" name="civil" value="Uniao marital">Uniao marital
+		</label>
+		<div>
+			<label>Data de nascimento:</label>
+			<input type="text" name="nasc">
+		</div>
+		<div>
+			<label>Grau de Instruçao:</label>
+			<label>
+				<input type="radio" name="Grau" value="Basico">Basico
+			</label>
+			<label>
+				<input type="radio" name="Grau" value="Medio">Medio
+			</label>
+			<label>
+				<input type="radio" name="Grau" value="Licenciado">Licenciado
+			</label>
+		</div>
+		<div>
+			<label>Numero de filhos:</label>
+			<input type="text" name="filhos">
+		</div>
+		<input type="submit" name="enviar" value="Enviar">
+	</form>
+
+
+	
+	
+	
+
+</body>
+</html>
